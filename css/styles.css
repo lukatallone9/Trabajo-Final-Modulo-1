@@ -177,3 +177,21 @@ body {
   background-color: #ea4335;
   border: 0;
 }
+
+.formulario {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
