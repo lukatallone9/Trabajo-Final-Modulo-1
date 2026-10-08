@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Página web mostrada en notebook y celular, adaptada a todos los dispositivos">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="hero2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <circle cx="1080" cy="100" r="110" fill="#ffffff" opacity="0.55"/>
+  <circle cx="90" cy="700" r="140" fill="#ffffff" opacity="0.4"/>
+
+  <!-- Notebook -->
+  <rect x="120" y="120" width="720" height="460" rx="22" fill="#1f2937"/>
+  <rect x="144" y="144" width="672" height="412" rx="10" fill="#ffffff"/>
+  <!-- menu -->
+  <rect x="144" y="144" width="672" height="46" fill="#ffffff"/>
+  <circle cx="176" cy="167" r="12" fill="#2563eb"/>
+  <rect x="200" y="162" width="70" height="10" rx="5" fill="#374151"/>
+  <rect x="560" y="162" width="50" height="10" rx="5" fill="#d1d5db"/>
+  <rect x="628" y="162" width="50" height="10" rx="5" fill="#d1d5db"/>
+  <rect x="696" y="162" width="50" height="10" rx="5" fill="#d1d5db"/>
+  <rect x="760" y="156" width="40" height="22" rx="11" fill="#2563eb"/>
+  <!-- hero -->
+  <rect x="144" y="190" width="672" height="190" fill="url(#hero2)"/>
+  <rect x="190" y="228" width="310" height="22" rx="11" fill="#ffffff"/>
+  <rect x="190" y="264" width="230" height="22" rx="11" fill="#ffffff" opacity="0.85"/>
+  <rect x="190" y="304" width="340" height="10" rx="5" fill="#ffffff" opacity="0.6"/>
+  <rect x="190" y="322" width="280" height="10" rx="5" fill="#ffffff" opacity="0.6"/>
+  <rect x="190" y="344" width="110" height="22" rx="11" fill="#ffffff"/>
+  <circle cx="700" cy="290" r="70" fill="#ffffff" opacity="0.25"/>
+  <circle cx="700" cy="290" r="45" fill="#ffffff" opacity="0.35"/>
+  <!-- tarjetas -->
+  <rect x="176" y="398" width="190" height="130" rx="12" fill="#eff6ff"/>
+  <rect x="385" y="398" width="190" height="130" rx="12" fill="#eff6ff"/>
+  <rect x="594" y="398" width="190" height="130" rx="12" fill="#eff6ff"/>
+  <rect x="192" y="412" width="158" height="62" rx="8" fill="#93c5fd"/>
+  <rect x="401" y="412" width="158" height="62" rx="8" fill="#60a5fa"/>
+  <rect x="610" y="412" width="158" height="62" rx="8" fill="#2563eb"/>
+  <rect x="192" y="488" width="110" height="9" rx="4" fill="#9ca3af"/>
+  <rect x="401" y="488" width="110" height="9" rx="4" fill="#9ca3af"/>
+  <rect x="610" y="488" width="110" height="9" rx="4" fill="#9ca3af"/>
+  <rect x="192" y="506" width="70" height="9" rx="4" fill="#d1d5db"/>
+  <rect x="401" y="506" width="70" height="9" rx="4" fill="#d1d5db"/>
+  <rect x="610" y="506" width="70" height="9" rx="4" fill="#d1d5db"/>
+  <!-- base -->
+  <path d="M80 580 H880 L920 620 Q922 636 904 636 H56 Q38 636 40 620 Z" fill="#cbd5e1"/>
+  <rect x="400" y="580" width="160" height="12" rx="6" fill="#94a3b8"/>
+
+  <!-- Celular -->
+  <rect x="800" y="210" width="260" height="500" rx="38" fill="#1f2937"/>
+  <rect x="816" y="226" width="228" height="468" rx="28" fill="#ffffff"/>
+  <rect x="890" y="236" width="80" height="14" rx="7" fill="#1f2937"/>
+  <!-- menu movil -->
+  <circle cx="846" cy="276" r="10" fill="#2563eb"/>
+  <rect x="862" y="272" width="50" height="8" rx="4" fill="#374151"/>
+  <rect x="996" y="268" width="26" height="4" rx="2" fill="#374151"/>
+  <rect x="996" y="276" width="26" height="4" rx="2" fill="#374151"/>
+  <rect x="996" y="284" width="26" height="4" rx="2" fill="#374151"/>
+  <!-- hero movil -->
+  <rect x="816" y="304" width="228" height="170" fill="url(#hero2)"/>
+  <rect x="840" y="332" width="170" height="16" rx="8" fill="#ffffff"/>
+  <rect x="840" y="358" width="130" height="16" rx="8" fill="#ffffff" opacity="0.85"/>
+  <rect x="840" y="388" width="180" height="8" rx="4" fill="#ffffff" opacity="0.6"/>
+  <rect x="840" y="404" width="150" height="8" rx="4" fill="#ffffff" opacity="0.6"/>
+  <rect x="840" y="428" width="90" height="20" rx="10" fill="#ffffff"/>
+  <!-- tarjetas moviles -->
+  <rect x="836" y="490" width="188" height="86" rx="12" fill="#eff6ff"/>
+  <rect x="848" y="502" width="64" height="62" rx="8" fill="#93c5fd"/>
+  <rect x="924" y="508" width="86" height="9" rx="4" fill="#9ca3af"/>
+  <rect x="924" y="526" width="60" height="9" rx="4" fill="#d1d5db"/>
+  <rect x="836" y="590" width="188" height="86" rx="12" fill="#eff6ff"/>
+  <rect x="848" y="602" width="64" height="62" rx="8" fill="#60a5fa"/>
+  <rect x="924" y="608" width="86" height="9" rx="4" fill="#9ca3af"/>
+  <rect x="924" y="626" width="60" height="9" rx="4" fill="#d1d5db"/>
+
+</svg>
