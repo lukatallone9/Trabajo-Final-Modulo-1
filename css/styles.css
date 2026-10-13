@@ -86,7 +86,7 @@ body {
   gap: 40px;
 }
 
-.wrapper--cards {
+.wrapper-cards {
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
