@@ -146,10 +146,16 @@ body {
 
 .hero-imagenes {
   display: flex;
-  padding: 60px;
-  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
   width: 100%;
-  max-width: 380px;
+  max-width: 700px;
+}
+
+.hero-imagenes img {
+  flex: 1;
+  min-width: 0;
 }
 
 .boton-hero {
@@ -230,4 +236,68 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 991px) {
+  .hero {
+    padding: 40px 5%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .hero__title {
+    font-size: 1.9rem;
+  }
+
+  .header__menu {
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .header__logo-icon {
+    width: 100px;
+  }
+
+  .hero {
+    padding: 32px 5%;
+  }
+
+  .hero-texto {
+    font-size: 1rem;
+  }
+
+  .hero__title {
+    font-size: 1.6rem;
+  }
+
+  .hero-imagenes {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .hero-imagenes img {
+    flex: none;
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .card-body {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .footer {
+    padding: 24px 5%;
+  }
+
+  .footer__redes {
+    gap: 10px;
+  }
 }
