@@ -189,6 +189,16 @@ body {
   color: var(--color-blue);
 }
 
+.hero-texto ol {
+  list-style: decimal;
+  padding-left: 24px;
+}
+
+.hero-texto li::marker {
+  color: var(--color-celeste);
+  font-weight: 600;
+}
+
 /* FOOTER */
 
 .footer {
