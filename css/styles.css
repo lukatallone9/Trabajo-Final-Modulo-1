@@ -86,6 +86,13 @@ body {
   gap: 40px;
 }
 
+.wrapper--cards {
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
 .hero-texto {
   flex: 1;
   font-size: large;
@@ -103,12 +110,38 @@ body {
   font-family: var(--font-main);
 }
 
+.span {
+  color: var(--color-celeste);
+}
+
 .texto-span {
   color: var(--color-celeste);
+  display: flex;
+  justify-content: center;
 }
 
 .texto {
   color: var(--color-white);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 280px;
+  max-width: 320px;
+  padding: 24px;
+  border: 1px solid var(--color-celeste);
+  border-radius: var(--radius);
+  color: var(--color-white);
+}
+
+.card-text {
+  margin-bottom: 24px;
+}
+
+.card-body .boton-hero {
+  margin-top: auto;
+  align-self: center;
 }
 
 .hero-imagenes {
