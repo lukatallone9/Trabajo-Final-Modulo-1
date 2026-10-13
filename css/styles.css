@@ -26,6 +26,11 @@
   box-sizing: border-box;
 }
 
+main {
+  flex: 1;
+  background-color: var(--color-blue);
+}
+
 ul,
 ol {
   list-style: none;
